@@ -363,12 +363,12 @@ header {
 }
 
 .popular .content .content-item .content-body {
+    margin-top: -1.4px;
     padding: 16px 22px 22px 22px;
     border: 1px solid #E2DFDA;
     border-top: 0px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    transition: 0.75s;
 }
 
 .popular .content .content-item:hover .content-body {
@@ -429,4 +429,69 @@ header {
 
 .content .content-item .action-block .btn:hover {
     background-color: #FFB900;
+}
+
+/* -----------Feedback--------------- */
+.feed-back {
+    background-color: #2E2100;
+    padding: 96px 0;
+}
+
+.feed-back-container {
+    display: flex;
+}
+
+.feed-back-container .customer-info {
+    min-width: 159px;
+}
+
+.feed-back-container .customer-info .avt {
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feed-back-container .customer-info .info-container {
+    margin-top: 18px;
+}
+
+.feed-back-container .customer-info .name {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #F7F7F7;
+
+}
+
+.feed-back-container .customer-info .job {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.85;
+    color: #BFBCB2;
+}
+
+.feed-back-container .customer-info .icon-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    width: 30px;
+}
+
+.feed-back-container .feed-back-desc {
+    margin-left: 241px;
+}
+
+.feed-back-container .feed-back-desc .icon {
+    margin-left: calc(0rem - 3rem);
+}
+
+.feed-back-container .feed-back-desc .desc {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #FFFFFF;
 }
