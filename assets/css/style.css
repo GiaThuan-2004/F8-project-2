@@ -495,3 +495,83 @@ header {
     line-height: 1.54;
     color: #FFFFFF;
 }
+
+/* ---------Features-------------- */
+.features {
+    padding: 200px 0;
+}
+
+/* common features(both 1 and 2 use) */
+.features-container .features-text .title {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+
+.features-container .features-text .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.features-container .features-text .btn {
+    background-color: #FFB900;
+    margin-top: 32px;
+    padding: 11px 37px;
+    border-radius: 26px;
+}
+
+.features-img img {
+    display: block;
+    object-fit: cover;
+}
+
+/* features1 */
+.features1 {
+    display: flex;
+    align-items: center;
+}
+
+.features1 .features-img {
+    display: flex;
+    gap: 30px;
+}
+
+.features1 .features-img img {
+    width: 270px;
+    height: 404px;
+    flex: 1;
+    border-radius: 16px;
+
+}
+
+.features1 .features-img img:first-child {
+    margin-top: 34px;
+}
+
+.features1 .features-text {
+    width: 470px;
+    margin-left: 130px;
+}
+
+
+/* features2 */
+.features2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features2 .features-text {
+    width: 570px;
+}
+
+.features2 .features-text .btn {
+    padding: 11px 32px;
+}
+
+.features2 .features-img img {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+}
